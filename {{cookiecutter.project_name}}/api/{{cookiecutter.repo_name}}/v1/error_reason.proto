@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package {{cookiecutter.api_service_name}}.v1;
+package {{cookiecutter.repo_name}}.v1;
 
 option go_package = "{{cookiecutter.module_name}}/api/{{cookiecutter.repo_name}}/v1;v1";
 
