@@ -32,10 +32,10 @@ func (r *{{cookiecutter.repo_name}}Repo) FindByID(context.Context, int64) (*biz.
 	return nil, nil
 }
 
-func (r *{{cookiecutter.repo_name}}Repo) ListByHello(context.Context, string) ([]*biz.{{cookiecutter.service_name}}, error) {
+func (r *{{cookiecutter.repo_name}}Repo) ListByHello(context.Context, string) ([]*biz.{{cookiecutter.repo_service_name}}, error) {
 	return nil, nil
 }
 
-func (r *{{cookiecutter.repo_name}}Repo) ListAll(context.Context) ([]*biz.{{cookiecutter.service_name}}, error) {
+func (r *{{cookiecutter.repo_name}}Repo) ListAll(context.Context) ([]*biz.{{cookiecutter.repo_service_name}}, error) {
 	return nil, nil
 }
