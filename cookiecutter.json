@@ -1,6 +1,6 @@
 {
-    "project_name": "willdesk-manage",
+    "project_name": "willdesk-setting",
     "repo_name": "user",
     "repo_service_name": "User",
-    "module_name": "willdesk.com/willdesk-manage"
+    "module_name": "willdesk.com/willdesk/willdesk-setting"
 }
