@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package {{cookiecutter.repo_name}}.v1;
+
+import "google/api/annotations.proto";
+
+option go_package = "{{cookiecutter.module_name}}/api/{{cookiecutter.repo_name}}/v1;v1";
+
+// The greeting service definition.
+service {{cookiecutter.repo_service_name}} {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply) {
+    option (google.api.http) = {
+      get: "/api/{{cookiecutter.repo_name}}/sayHello/{name}"
+    };
+  }
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings
+message HelloReply {
+  string message = 1;
+}

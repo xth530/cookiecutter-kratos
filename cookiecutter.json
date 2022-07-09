@@ -1,5 +1,6 @@
 {
-    "repo_name": "greeter",
-    "service_name": "Greeter",
-    "module_name": "github.com/go-kratos/kratos-layout"
+    "project_name": "willdesk-manage",
+    "repo_name": "user",
+    "repo_service_name": "User",
+    "module_name": "willdesk.com/willdesk-manage"
 }
