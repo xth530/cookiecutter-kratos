@@ -12,7 +12,7 @@ type {{cookiecutter.repo_name}}Repo struct {
 	log  *log.Helper
 }
 
-// New{{cookiecutter.service_name}}Repo .
+// New{{cookiecutter.repo_service_name}}Repo .
 func New{{cookiecutter.repo_service_name}}Repo(data *Data, logger log.Logger) biz.{{cookiecutter.repo_service_name}}Repo {
 	return &{{cookiecutter.repo_name}}Repo{
 		data: data,
